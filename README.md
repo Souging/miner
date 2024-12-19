@@ -10,13 +10,22 @@ In the future, we will support other tasks such as chatbot conversations, image 
 
 ## Prerequisites
 先安装docker
+
 (1) install docker on your machine. (https://docs.docker.com/engine/install/)
+
 存入0.1 VANA
+
 (2) Fund your wallet with at least 0.1 $VANA
+
+
 去网站用钱包链接一下 并且绑定google网盘
+
+
 (3) Login with this wallet on sixgpt.xyz
 
 git拉取
+
+
 ## Run the miner:
 Clone the repository:
 ```
@@ -27,6 +36,8 @@ cd miner
 CPU跑 不建议 基本上跑不动
 
 直接运行这里跑GPU
+
+
 ### Run the miner with more advanced options
 ```
 chmod +x run_sixgpt.sh
