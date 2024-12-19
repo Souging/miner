@@ -37,6 +37,8 @@ CPU跑 不建议 基本上跑不动
 
 直接运行这里跑GPU
 
+先修改.env文件中你的密钥
+
 
 ### Run the miner with more advanced options
 ```
