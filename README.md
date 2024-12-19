@@ -1,4 +1,4 @@
-# SixGPT Miner
+# SixGPT Miner  中文教程
 This is the official SixGPT miner.
 
 # About
@@ -9,13 +9,14 @@ The SixGPT Miner is a software package which allows users to contribute data the
 In the future, we will support other tasks such as chatbot conversations, image captioning, etc.
 
 ## Prerequisites
+先安装docker
 (1) install docker on your machine. (https://docs.docker.com/engine/install/)
-
+存入0.1 VANA
 (2) Fund your wallet with at least 0.1 $VANA
-
+去网站用钱包链接一下 并且绑定google网盘
 (3) Login with this wallet on sixgpt.xyz
 
-
+git拉取
 ## Run the miner:
 Clone the repository:
 ```
@@ -23,28 +24,9 @@ git clone https://github.com/sixgpt/miner.git
 cd miner
 ```
 
-### Run the miner with CPU
-Create an .env file. Make sure your Vana Private key is set to your wallet private key (0x...)
-```
-VANA_PRIVATE_KEY=abcdefabcef
-VANA_NETWORK=mainnet
-OLLAMA_API_URL=http://ollama:11434/api
-```
-Run the miner:
+CPU跑 不建议 基本上跑不动
 
-```
-docker-compose up -d
-```
-Stop the miner:
-
-```
-docker-compose down
-```
-Check miner logs:
-```
-docker-compose logs -f
-```
-
+直接运行这里跑GPU
 ### Run the miner with more advanced options
 ```
 chmod +x run_sixgpt.sh
